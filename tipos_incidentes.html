@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>TIPO_INCIDENTE</th>
+      <th>TIPO_DETALLE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>457</td>
+      <td>VIOLACIÓN DE MEDIDA GUBERNAMENTAL</td>
+    </tr>
+    <tr>
+      <td>535</td>
+      <td>INFORMACIÓN CONFIDENCIAL</td>
+    </tr>
+    <tr>
+      <td>601</td>
+      <td>ACCIDENTE CEREBRO VASCULAR</td>
+    </tr>
+    <tr>
+      <td>602</td>
+      <td>CAÍDA DE ALTURA</td>
+    </tr>
+    <tr>
+      <td>603</td>
+      <td>CONVULSIÓN</td>
+    </tr>
+    <tr>
+      <td>604</td>
+      <td>EVENTO RESPIRATORIO</td>
+    </tr>
+    <tr>
+      <td>605</td>
+      <td>DOLOR TORÁXICO</td>
+    </tr>
+    <tr>
+      <td>606</td>
+      <td>ELECTROCUCIÓN</td>
+    </tr>
+    <tr>
+      <td>607</td>
+      <td>PATOLOGÍA GINECOBSTÉTRICA</td>
+    </tr>
+    <tr>
+      <td>608</td>
+      <td>HERIDO</td>
+    </tr>
+    <tr>
+      <td>609</td>
+      <td>AMENAZA DE SUICIDIO</td>
+    </tr>
+    <tr>
+      <td>610</td>
+      <td>INTOXICACIÓN</td>
+    </tr>
+    <tr>
+      <td>611</td>
+      <td>MALTRATO</td>
+    </tr>
+    <tr>
+      <td>613</td>
+      <td>INCONSCIENTE O PARO CARDIORESPIRATORIO</td>
+    </tr>
+    <tr>
+      <td>615</td>
+      <td>QUEMADURAS</td>
+    </tr>
+    <tr>
+      <td>616</td>
+      <td>SANGRADO VAGINAL</td>
+    </tr>
+    <tr>
+      <td>617</td>
+      <td>SÍNTOMAS GASTROINTESTINALES</td>
+    </tr>
+    <tr>
+      <td>702</td>
+      <td>ABRIR DOMICILIO</td>
+    </tr>
+    <tr>
+      <td>703</td>
+      <td>ELEMENTO CAÍDO O EN PELIGRO DE CAER</td>
+    </tr>
+    <tr>
+      <td>708</td>
+      <td>MATERIALES PELIGROSOS</td>
+    </tr>
+    <tr>
+      <td>709</td>
+      <td>RESCATE</td>
+    </tr>
+    <tr>
+      <td>715</td>
+      <td>EVENTO NATURAL</td>
+    </tr>
+    <tr>
+      <td>802</td>
+      <td>MANIOBRAS PELIGROSAS</td>
+    </tr>
+    <tr>
+      <td>901</td>
+      <td>MUERTO</td>
+    </tr>
+    <tr>
+      <td>902</td>
+      <td>SECUESTRO</td>
+    </tr>
+    <tr>
+      <td>903</td>
+      <td>RAPTO</td>
+    </tr>
+    <tr>
+      <td>904</td>
+      <td>HURTO EFECTUADO</td>
+    </tr>
+    <tr>
+      <td>905</td>
+      <td>HURTO EN PROCESO</td>
+    </tr>
+    <tr>
+      <td>906</td>
+      <td>VIOLENCIA SEXUAL</td>
+    </tr>
+    <tr>
+      <td>909</td>
+      <td>EXHIBICIONES O ACTOS OBSCENOS</td>
+    </tr>
+    <tr>
+      <td>910</td>
+      <td>LESIONES PERSONALES</td>
+    </tr>
+    <tr>
+      <td>911</td>
+      <td>DISPAROS</td>
+    </tr>
+    <tr>
+      <td>912</td>
+      <td>DAÑOS EN PROPIEDAD PÚBLICA O PRIVADA</td>
+    </tr>
+    <tr>
+      <td>914</td>
+      <td>VEHÍCULO ABANDONADO</td>
+    </tr>
+    <tr>
+      <td>915</td>
+      <td>INTENTO O VIOLACIÓN DE DOMICILIO</td>
+    </tr>
+    <tr>
+      <td>916</td>
+      <td>PERSONA O VEHÍCULO SOSPECHOSO</td>
+    </tr>
+    <tr>
+      <td>918</td>
+      <td>INTENTO DE SUICIDIO</td>
+    </tr>
+    <tr>
+      <td>919</td>
+      <td>PERSONA PIDIENDO AUXILIO</td>
+    </tr>
+    <tr>
+      <td>922</td>
+      <td>NARCÓTICOS</td>
+    </tr>
+    <tr>
+      <td>923</td>
+      <td>HABITANTE DE LA CALLE</td>
+    </tr>
+    <tr>
+      <td>924</td>
+      <td>ENFERMO</td>
+    </tr>
+    <tr>
+      <td>926</td>
+      <td>EMBRIAGUEZ</td>
+    </tr>
+    <tr>
+      <td>927</td>
+      <td>QUEMAS</td>
+    </tr>
+    <tr>
+      <td>928</td>
+      <td>INUNDACIÓN</td>
+    </tr>
+    <tr>
+      <td>929</td>
+      <td>EXPLOSIÓN</td>
+    </tr>
+    <tr>
+      <td>930</td>
+      <td>FENÓMENO DE REMOCIÓN DE MASA</td>
+    </tr>
+    <tr>
+      <td>931</td>
+      <td>INCENDIO</td>
+    </tr>
+    <tr>
+      <td>932</td>
+      <td>RUIDO</td>
+    </tr>
+    <tr>
+      <td>933</td>
+      <td>DELINCUENTE CAPTURADO POR CIVIL</td>
+    </tr>
+    <tr>
+      <td>934</td>
+      <td>RIÑA</td>
+    </tr>
+    <tr>
+      <td>935</td>
+      <td>VERIFICAR SITUACIÓN</td>
+    </tr>
+    <tr>
+      <td>936</td>
+      <td>PERSONA TENDIDA EN LA VÍA</td>
+    </tr>
+    <tr>
+      <td>937</td>
+      <td>ANIMAL</td>
+    </tr>
+    <tr>
+      <td>938</td>
+      <td>ANIMAL PELIGROSO</td>
+    </tr>
+    <tr>
+      <td>941</td>
+      <td>TRASTORNO MENTAL</td>
+    </tr>
+    <tr>
+      <td>942</td>
+      <td>ACCIDENTE DE TRÁNSITO</td>
+    </tr>
+    <tr>
+      <td>943</td>
+      <td>CONGESTIÓN VEHICULAR</td>
+    </tr>
+    <tr>
+      <td>944</td>
+      <td>MANIFESTACIÓN O MOTÍN</td>
+    </tr>
+    <tr>
+      <td>946</td>
+      <td>REMISIÓN DE DINERO O ACOMPAÑAMIENTO</td>
+    </tr>
+    <tr>
+      <td>947</td>
+      <td>ALARMA</td>
+    </tr>
+    <tr>
+      <td>950</td>
+      <td>ACCIÓN SUBVERSIVA</td>
+    </tr>
+    <tr>
+      <td>951</td>
+      <td>INVASIÓN DE TERRENO O EDIFICIO</td>
+    </tr>
+    <tr>
+      <td>952</td>
+      <td>PERSONA ABANDONADA</td>
+    </tr>
+    <tr>
+      <td>953</td>
+      <td>MUERTE NATURAL</td>
+    </tr>
+    <tr>
+      <td>958</td>
+      <td>ACTOS CONTRA EL AMBIENTE</td>
+    </tr>
+    <tr>
+      <td>961</td>
+      <td>SOLICITUD DE APOYO O DESACATO</td>
+    </tr>
+    <tr>
+      <td>964</td>
+      <td>INDEBIDO USO DE ESTABLECIMIENTO</td>
+    </tr>
+    <tr>
+      <td>965</td>
+      <td>FUGA DE PRESOS</td>
+    </tr>
+    <tr>
+      <td>966</td>
+      <td>MENDICIDAD</td>
+    </tr>
+    <tr>
+      <td>967</td>
+      <td>MENOR EN ESTABLECIMIENTO DE MAYORES</td>
+    </tr>
+    <tr>
+      <td>968</td>
+      <td>PANDILLAS</td>
+    </tr>
+    <tr>
+      <td>969</td>
+      <td>PORTE DE ARMAS</td>
+    </tr>
+    <tr>
+      <td>972</td>
+      <td>SUPLANTACIÓN DE PROFESIÓN U OFICIO</td>
+    </tr>
+    <tr>
+      <td>973</td>
+      <td>DAÑOS EN REDES DE SERVICIOS</td>
+    </tr>
+    <tr>
+      <td>974</td>
+      <td>COLAPSO O POSIBILIDAD DE COLAPSO</td>
+    </tr>
+    <tr>
+      <td>976</td>
+      <td>EXTRAVIADO O DESAPARECIDO</td>
+    </tr>
+    <tr>
+      <td>977</td>
+      <td>VEHÍCULO RECUPERADO</td>
+    </tr>
+    <tr>
+      <td>978</td>
+      <td>HALLAZGO DE EXPLOSIVOS</td>
+    </tr>
+    <tr>
+      <td>982</td>
+      <td>ESTABLECIMIENTO ILEGAL PARA EL ABORTO</td>
+    </tr>
+    <tr>
+      <td>990</td>
+      <td>RESTOS HUMANOS</td>
+    </tr>
+    <tr>
+      <td>992</td>
+      <td>ACCIDENTE DE AVIACIÓN</td>
+    </tr>
+    <tr>
+      <td>BROMA</td>
+      <td>BROMA</td>
+    </tr>
+    <tr>
+      <td>DELINF</td>
+      <td>DELITOS INFORMÁTICOS</td>
+    </tr>
+    <tr>
+      <td>RECONOCIMI</td>
+      <td>RECONOCIMIENTO</td>
+    </tr>
+    <tr>
+      <td>SIMULACRO</td>
+      <td>SIMULACRO</td>
+    </tr>
+    <tr>
+      <td>VHMALE</td>
+      <td>VEHÍCULO MAL ESTACIONADO</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
